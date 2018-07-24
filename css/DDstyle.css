@@ -2,8 +2,12 @@ body{
     background-color: #001021;
     padding: 0;
     margin: 0;
+    color: white;
+     font-family: 'Open Sans', sans-serif;
 }
-
+footer{
+    text-align:center
+}
 
 /* navbar */
 #navbar{
@@ -167,6 +171,10 @@ body{
     margin-left: 800px;
     
     
+}
+
+.Androm{
+    margin-left:800px;
 }
 #momjeans{
     margin-right:800px;

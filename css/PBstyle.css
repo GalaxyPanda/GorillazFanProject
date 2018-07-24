@@ -2,6 +2,12 @@ body{
     background-color: #283845;
     padding: 0;
     margin: 0;
+    color: white;
+     font-family: 'Open Sans', sans-serif;
+}
+
+footer{
+    text-align:center
 }
 
 
