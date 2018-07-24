@@ -1,0 +1,208 @@
+body{
+    background-color: #283845;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navbar */
+#navbar{
+    background-color: #FBFCFF;
+    color: #3C6722;
+    font-size: 30px;
+    white-space:nowrap;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+#nav{
+    list-style-type:none;
+    padding-left: 0px;
+    margin-top: 0px;
+    
+}
+
+#nav li{
+    display: inline-block;
+    line-height: 3;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+#nav li a{
+    color: #3C6722;
+    padding: 0px 20px 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav li a:hover{
+    color: #2E8B23;
+    background-color:#E5E6E8;
+    line-height: 3;
+    transition: all .5s;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+     height: 50px;
+    display:inline;
+    line-height: 3;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Phase 1 and 2 Row*/
+.P1P2row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 35%;
+  padding-top: 5%
+}
+
+.P1P2col {
+  flex: 50%;
+  padding: 0 4px;
+    
+}
+
+.P1P2col img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width: 25%;
+}
+
+/*Phases 3,4,5 */
+.P3P4P5row{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 25%;
+ 
+}
+
+.P3P4P5col {
+  flex: 33.33%;
+  padding: 0 4px;
+    
+}
+
+.P3P4P5col img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width: 25%;
+}
+
+
+/* Phases */
+
+
+#Phases h1{
+    color: #FFFFFF;
+    Text-align: center;
+    
+}
+
+#Phases p{
+    color: #FFFFFF;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+/* Phase 1 */
+
+.Phase1{
+ color: #FFFFFF;   
+    margin-top: 400px;
+    
+    
+
+}
+
+.Phase1 h1{
+    background-color: #000000;
+    color: #FBFCFF;
+    margin-right: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Phase 2 */
+.Phase2{
+ color: #FFFFFF;   
+    margin-top: 400px;
+    
+    
+
+}
+
+.Phase2 h1{
+    background-color: #000000;
+    color: #FBFCFF;
+    margin-left: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Phase 3 */
+.Phase3{
+ color: #FFFFFF;   
+    margin-top: 400px;
+    
+    
+
+}
+.Phase3 h1{
+    background-color: #000000;
+    color: #FBFCFF;
+    margin-right: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Phase 4 */
+.Phase4{
+ color: #FFFFFF;   
+    margin-top: 400px;
+    
+    
+
+}
+.Phase4 h1{
+    background-color: #000000;
+    color: #FBFCFF;
+    margin-left: 800px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*Phase 5 */
+.Phase5{
+ color: #FFFFFF;   
+    margin-top: 400px;
+    
+    
+
+}
+.Phase5 h1{
+    background-color: #000000;
+    color: #FBFCFF;
+    margin-right: 800px;
+    font-family: 'Montserrat', sans-serif;
+}

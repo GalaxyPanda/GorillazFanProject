@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/Gstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Cairo|Montserrat|Open+Sans" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="../img/logo.jpg" id="logo">
+            <ul id="nav">
+                <li ><a href="Index.html">Home</a></li>
+                <li><a href="Band_Members.html">Band Members</a></li>
+                <li><a href="Phases.html">Phases</a></li>
+                <li><a href="#">Social Media</a></li>
+        </ul>
+        </div>
+        
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="https://i.imgur.com/dGC9rnk.png" style="width:100%">
+    <div class="text"><a href="https://old.reddit.com/r/gorillaz/"><p>r/Gorillaz</p></a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <iframe style="text-align: center" width="414" height="800" src="https://www.youtube.com/embed/8yFFg1ZO52o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext"> 4 / 4</div>
+    <img src="../img/MurdocP5.jpg" style="width:100% height:50% padding-right:50px">
+    <div class="text"><a href="#">#FREEMURDOC</a></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+
+        <div id="Gorillaz">
+         <h1>Who are the Gorillaz?</h1>
+            <p>Gorillaz are an English virtual band created in 1998 by musician Damon Albarn and artist Jamie Hewlett. The band primarily consists of four animated members: 2-D (lead vocals, keyboards), Murdoc Niccals (bass guitar), 
+                Noodle (guitar, keyboards), and Russel Hobbs (drums and percussion). Their fictional universe is explored through music videos, interviews, and other short cartoons. 
+                In reality, Albarn is the only permanent musical contributor, and often collaborates with other musicians</p>
+        </div>
+        
+        <footer>
+  <p class="footer"> &copy 2018 YOUR FULL NAME<br>
+  All images belong to their rightful owners</p>
+  </p>
+</footer>
+
+        <script>
+            
+            // Nav Bar
+         window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            
+            //SlideShow
+            var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+        </script>
+    </body>
+</html>

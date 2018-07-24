@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/DDstyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Cairo|Montserrat|Nanum+Gothic|Open+Sans" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="navbar">
+            <img src="../img/logo.jpg" id="logo">
+            <ul id="nav">
+                <li ><a href="Index.html">Home</a></li>
+                <li><a href="Band_Members.html">Band Members</a></li>
+                <li><a href="Phases.html">Phases</a></li>
+                <li><a href="#">Social Media</a></li>
+        </ul>
+        </div>
+       
+       <div class="M2Drow">
+           <div class="M2Dcol">
+               <a href="#Murdoc"><img src="../img/M1.jpg"></a> 
+               <img src="../img/2D1.jpg">
+           </div>
+        </div>
+        <div class= "NRrow">
+            <div class="NRcol">
+                <img src="../img/N1.jpg">
+                <img src="../img/R1.jpg">
+            </div>
+        </div>
+        <div id="Title">
+            <h1>Gorillaz</h1>
+            <p>Click each image to learn more about the band members</p>
+        </div>
+        <!-- Murdoc -->
+        <div id="Murdoc">
+            
+              <<<h1>Murdoc Niccals</h1>
+            
+            <div id="Muds">
+            
+            <q>Be wary of people who use quotes... I don't know who said that.</q>
+            <p><i>Murdoc Niccals</i></p>  
+            </div>
+            
+            <div class="Muds">
+                <a href="https://freemurdoc.com/"><img src="https://vignette.wikia.nocookie.net/kong/images/4/4c/MurdocP5.jpg/revision/latest?cb=20180604195828"></a>
+                
+                
+            </div>
+            <p>Murdoc Niccals is the offical founder and bass player of the gorillaz.</p>
+        </div>
+        <!-- 2D -->
+        <div id="d2Dmain">
+            <h1>2D</h1>
+            <div id="peppermint">
+              <p>Stuart "2D" Pot is the lead singer</p>  
+            </div>
+            
+            <div id="momjeans">
+                <q>I never really thought about anything as far as I can remember.</q>
+                <p><i>2D</i></p>
+            </div>
+        </div>
+        
+        <!-- Noodle -->
+        <div id="Noodle">
+            <h1>Noodle</h1>
+            <p>Noodle is the gutarist</p>
+            <div id="Noods">
+                <q>Sometimes good things come in big packages! I arrived in a FedEx crate!</q>
+                <p><i>Noodle</i></p>
+            </div>
+        </div>
+        
+        <!-- Russel -->
+        <div id="Russel">
+            <h1>Russel</h1>
+            <p>Russel is the drummer</p>
+            <div id="Del">
+                <q>War does not determine who is right. Only who is left.</q>
+                <p><i>Russel</i></p>
+            </div>
+        </div>
+
+        
+        <script>
+            
+            // Nav Bar
+         window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            
+            
+
+        </script>
+    </body>
+</html>

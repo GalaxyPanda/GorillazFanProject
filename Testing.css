@@ -1,0 +1,46 @@
+
+/* Murdoc and 2D's row*/
+.M2Drow{
+    display: flex;
+}
+
+.M2Dcol{
+   flex: 50%;
+  padding: px;
+    
+}
+/* MURDOC PICTURE */
+#MurdocPic{
+    position: relative;
+    left:23%;
+}
+
+
+/* 2D picture*/
+#2DPIC{
+    position: relative; 
+    
+}
+
+/* Noodle and Russel's row*/
+.NRrow{
+    display: flex;
+}
+
+.NRcol{
+    flex:50%;
+    padding
+    
+}
+
+/*Noodle Picture*/
+
+#Npic{
+    position: relative;
+    left:23%;
+}
+
+/* Russel Pictue*/
+#Rpic{
+    position:relative;
+}

@@ -1,0 +1,202 @@
+body{
+    background-color: #001021;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* navbar */
+#navbar{
+    background-color: #FBFCFF;
+    color: #A35A31;
+    font-size: 30px;
+    white-space:nowrap;
+    font-family: 'Open Sans', sans-serif;
+    overflow: auto;
+    
+}
+
+
+#nav{
+    list-style-type:none;
+    padding-left: 0px;
+    margin-top: 0px;
+    overflow: auto;
+    
+}
+
+#nav li{
+    display: inline-block;
+    line-height: 3;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+#nav li a{
+    color: #A35A31;
+    padding: 0px 20px 10px 0px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav li a:hover{
+    color: #ab7129;
+    background-color:#E5E6E8;
+    line-height: 3;
+    transition: all .5s;
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo{
+     height: 50px;
+    display:inline;
+    line-height: 3;
+    float: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Title*/
+
+#Title{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom:0;
+    
+}
+
+
+/* Murdoc and 2D's row*/
+.M2Drow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 25%;
+  padding-top: 10%;  
+}
+
+/* Create two equal columns that sits next to each other */
+.M2Dcol {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.M2Dcol img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width: 35%;
+}
+
+
+
+/* Noodle and Russel's row*/
+.NRrow{
+     display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-left: 25%;
+    
+}
+
+.NRcol{
+    flex:50%;
+    padding: 0 4px;
+}
+
+.NRcol img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width: 35%;
+}
+
+/*Murdoc*/
+#Murdoc{
+    margin-top:400px;
+    color: #ffffff;
+    
+}
+
+#Murdoc h1{
+    color: #4C1517;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #915164;
+    margin-right: 800px;
+    padding: 100, 0;
+   
+}
+
+#Muds{
+    padding-left:800px;
+}
+
+#Mudsintro{
+    padding-left:800px;
+}
+
+/* 2D */
+#d2Dmain {
+    margin-top:400px;
+    color: #FFFFFF;
+}
+
+#d2Dmain h1{
+    color: #0B0605;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #C27B27;
+    margin-left: 800px;
+    
+    
+}
+#momjeans{
+    margin-right:800px;
+}
+#peppermint{
+    margin-left:800px;
+}
+/* Noodle */
+#Noodle{
+    margin-top:400px;
+    color:#FFFFFF;
+}
+
+#Noodle h1{
+    color:#778E5D;
+    background-color: #F6F6F6;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 800px;
+}
+
+/* Russel */
+
+#Russel{
+    margin-top:400px;
+    color: #FFFFFF;
+}
+
+#Russel h1{
+    color:#634552;
+    background-color:#A55473 ;
+    margin-left: 800px;
+    font-family: 'Open Sans', sans-serif;
+}
